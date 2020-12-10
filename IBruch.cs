@@ -5,7 +5,7 @@ using System.Text;
 namespace ConsoleApp1
 {
 	//Interface für die Zusammenarbeit an einem Projekt, welches auf
-	// Test für Git	
+	// Test für Git	 2
 	//der Arbeit mit Brüchen basiert
     interface IBruch
     {
