@@ -6,29 +6,8 @@ namespace ConsoleApp1
 {
     interface IBruch
     {
-        /// <summary>
-        /// getter für den Zaehler des Bruchs.
-        /// </summary>
-        /// <returns>Zaehler des Bruchs</returns>
-        int getZaehler();
-        /// <summary>
-        /// getter für den Nenner des Bruchs.
-        /// </summary>
-        /// <returns>Nenner des Bruchs</returns
-        int getNenner();
-        /// <summary>
-        /// kuerzt den Bruch soweit es möglich ist.
-        /// </summary
-        /// <summary>
-        /// setzt den Zaehler des BruchObjektes
-        /// </summary>
-        /// <param name="zaehler">zu setzender ZaehlerWert</param>
-        void setZaehler(int zaehler);
-        /// <summary>
-        /// setzt den Nenner des BruchObjektes
-        /// </summary>
-        /// <param name="nenner">zu setzender NennerWert</param>
-        void setNenner(int nenner);
+        int Nenner { get; set; }
+        int Zaehler { get; set; }
         void kuerzen();
         /// <summary>
         /// string-Repräsentation des Bruchs mit Zaehler und Nennerwerten.
