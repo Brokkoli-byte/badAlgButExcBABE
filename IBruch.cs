@@ -6,7 +6,8 @@ namespace ConsoleApp1
 {
     interface IBruch
     {
-
+	// Dies Ist eine sehr sachliche Veränderung, um die weitschweifenden Möglichkeiten von Github zu erforschen!
+	
 	//Definiert den Nenner des Bruchs
         int Nenner { get; set; }
 	//Definiert den Zaehler des zu brechnenden Bruchs!!! 
@@ -43,7 +44,7 @@ namespace ConsoleApp1
         /// <returns>Kopie des aktuellen Bruchs</returns>
         IBruch copyThis();
 	
-	
+	//Aktueller Test der Veränderung am Ende der Klasse von IBruch
 
 
     }
