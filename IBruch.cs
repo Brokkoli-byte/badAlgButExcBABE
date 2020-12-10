@@ -6,7 +6,10 @@ namespace ConsoleApp1
 {
     interface IBruch
     {
+
+	//Definiert den Nenner des Bruchs
         int Nenner { get; set; }
+	//Definiert den Zaehler des zu brechnenden Bruchs!!! 
         int Zaehler { get; set; }
         void kuerzen();
         /// <summary>
@@ -39,6 +42,8 @@ namespace ConsoleApp1
         /// </summary>
         /// <returns>Kopie des aktuellen Bruchs</returns>
         IBruch copyThis();
+	
+	
 
 
     }
